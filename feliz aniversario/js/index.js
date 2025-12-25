@@ -3,7 +3,7 @@ const hour = document.getElementById('hour');
 const minute = document.getElementById('minute');
 const second = document.getElementById('second');
 
-const targetDate = new Date('December 25 2025 13:50:00').getTime();
+const targetDate = new Date('December 25 2025 14:00:00').getTime();
 
 function timer(){
     const currentDate = new Date().getTime();
@@ -42,5 +42,6 @@ timer();
 const x = setInterval(timer, 1000);
 
 // setInterval(timer, 1000)
+
 
 
